@@ -37,3 +37,11 @@ double click `Downloader.exe`, it will show this:
 ![5](5.jpg)
 
 All video will be save into folder `src`.
+
+## For linux
+you need a g++ compiler and `aria2`
+### For Debian/Ubuntu
+```bash
+sudo apt-get update
+sudo apt-get install aria2
+```
