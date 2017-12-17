@@ -4,13 +4,13 @@
 
 copy the link of the course that you want to learn
 
-![1](.\1.jpg)
+![1](1.jpg)
 
 ### step 2
 
 paste the link in the box on site :[http://tools.antlm.com/](http://tools.antlm.com/) 
 
-![2](.\2.jpg)
+![2](2.jpg)
 
 then click the button beside the box.
 
@@ -18,7 +18,7 @@ then click the button beside the box.
 
 click the button "一键复制高清视频地址".
 
-![3](.\3.jpg)
+![3](3.jpg)
 
 and now, you have got download link in your clipboard.
 
@@ -26,7 +26,7 @@ and now, you have got download link in your clipboard.
 
 press `ctrl` and `V` after open the file "download_link.txt", then you will see this
 
-![4](.\4.jpg)
+![4](4.jpg)
 
 and save it.
 
@@ -34,6 +34,6 @@ and save it.
 
 double click `Downloader.exe`, it will show this:
 
-![5](.\5.jpg)
+![5](5.jpg)
 
 All video will be save into folder `src`.
