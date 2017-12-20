@@ -36,7 +36,7 @@ double click `Downloader.exe`, it will show this:
 
 ![5](5.jpg)
 
-All video will be save into folder `src`.
+All videos will be saved into folder `src`.
 
 ## For linux
 you need a g++ compiler and `aria2`
@@ -45,3 +45,6 @@ you need a g++ compiler and `aria2`
 sudo apt-get update
 sudo apt-get install aria2
 ```
+
+## Attention
+You need the aria2c downloader. This repository is just a string transfer.
