@@ -14,10 +14,10 @@ void gogogo(char *name,char *command)
 int main ()
 {
     freopen("download_link.txt","r",stdin);
-    char url[1000]={0},cc=0,name[1000]={0},command[10000]={"aria2c -s 10 -x 10 \""},dd=0;
+    char url[1000]={0},cc=0,name[1000]={0},command[10000]={"aria2c -s 10 -x 10 \""},dd=0,bb[4]={0};
     int Len=strlen(command);
     bool ft=true;
-    int i=0,j=0,len;
+    int i=0,j=0,len,haha=1;
     while(scanf("%c",&dd)!=EOF)
     {
         if(cc=='\n'&&dd=='\n')
@@ -27,6 +27,8 @@ int main ()
         {
             strcat(command,url);
             strcat(command,"\" -o \"src/");
+            sprintf(bb,"%02d ",haha++);
+            strcat(command,bb);
             strcat(command,name);
             len=strlen(url);
             if(url[len-1]=='v')
@@ -38,6 +40,9 @@ int main ()
 
             gogogo(name,command);
             command[Len]=0;
+            memset(url,0,sizeof(char)*1000);
+            memset(name,0,sizeof(char)*1000);
+            memset(command+20,0,sizeof(char)*1000);
             i=0;
             j=0;
             ft=true;
