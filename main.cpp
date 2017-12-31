@@ -7,7 +7,8 @@ using namespace std;
 
 void gogogo(char *name,char *command)
 {
-    cout<<"Downloading :"<<name<<endl;
+    int static  num=1;
+    cout<<"Downloading : No."<<num++<<" "<<name<<endl;
 //    cout<<command<<endl;
     system(command);
 }
