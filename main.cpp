@@ -1,3 +1,7 @@
+/*
+BDZNH
+我觉得这个东西实在是有点那啥
+*/
 #include <iostream>
 #include <fstream>
 #include <string.h>
@@ -8,9 +12,14 @@ using namespace std;
 void gogogo(char *name,char *command)
 {
     int static  num=1;
+    if(num==1)
+    {
+        cout<<"Please put in init number (Default 1):";
+        cin>>num;
+    }
     cout<<"Downloading : No."<<num++<<" "<<name<<endl;
-//    cout<<command<<endl;
-    system(command);
+    cout<<command<<endl;
+//    system(command);
 }
 int main ()
 {
