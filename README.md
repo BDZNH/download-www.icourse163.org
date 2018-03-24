@@ -48,3 +48,4 @@ sudo apt-get install aria2
 
 ## Attention
 You need the aria2c downloader. This repository is just a string transfer.
+You can compile the main.cpp with -std=c++11 by yourself.
